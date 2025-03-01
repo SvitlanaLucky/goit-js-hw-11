@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"index.js","sources":["../src/main.js"],"sourcesContent":["import iziToast from 'izitoast';\nimport 'izitoast/dist/css/iziToast.min.css';\nimport SimpleLightbox from 'simplelightbox';\nimport 'simplelightbox/dist/simple-lightbox.min.css';\n\nconst lightbox = new SimpleLightbox('.image-container a', {\n  captionDelay: 250,\n});\n"],"names":["SimpleLightbox"],"mappings":"svBAKiB,IAAIA,EAAe,qBAAsB,CACxD,aAAc,GAChB,CAAC"}
